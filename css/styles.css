@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*---- font names 
+
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+
+--------*/
+
+/*---Header Stuff ---*/
+
+header {
+    padding: 8px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+    background-color: white;
+    padding-bottom: inherit;
+}
+
+h1, 
+nav {
+    display: inline-block;
+}
+
+nav {
+    float: right;
+    padding: 60px 150px 0px;
+}
+
+li, 
+a {
+    color: #707070;
+    text-decoration: none;
+    transition: .5s;
+}
+
+/*---- Hover Effect ----*/
+
+a:hover {
+    color: orange;
+    text-decoration:underline;
+    transition: .5s;
+}
+
+.workpage {
+    color: orange;
+    text-decoration: underline;
+}
+
+/*---- Hover Effect ----*/
+
+ul, 
+li {
+    display: inline-block;
+    font-family: helvetica;
+    color: #707070;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.boldname {
+    font-family: helvetica;
+    color: #707070;
+    position: relative;
+    top: 16px;
+}
+
+.design {
+    font-weight: normal;
+}
+
+
+.mainanchor,
+.boldname {
+    display: inline-block;
+}
+
+.mainanchor {
+    vertical-align: middle;
+    padding: 45px 5px 0px 45px;
+}
+
+.twitter, 
+.share {
+    vertical-align: middle;
+}
+
+/*---Header Stuff ---*/
+
+/*----- Index & Work Pages landing code----*/
+
+.index-work-image-container {
+    position: relative;
+    top: 100px;
+}
+
+
+/*---Body Code Work Description Pages---*/
+
+.workdescription {
+    float: right;
+    padding-top: 194px;
+    padding-right: 45px;
+    font-family: helvetica;
+    color: #707070;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.subh3 {
+    padding-top: 25px;
+}
+
+.locationforproject {
+    font-weight: 400;
+}
+
+.storyforwork {
+    padding-top: 50px;
+}
+
+.image-container {
+    padding-top: 194px;
+    max-width: 1400px;
+}
+
+.image-container img {
+    display: block;
+}
+
+/*----Positioning----*/
+
+
+/*----Animation----*/
