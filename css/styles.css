@@ -1,7 +1,7 @@
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
 /*---- font names 
@@ -14,82 +14,81 @@ font-family: 'Roboto Mono', monospace;
 /*---Header Stuff ---*/
 
 header {
-    padding: 8px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 99;
-    background-color: white;
-    padding-bottom: inherit;
+  padding: 8px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  background-color: white;
+  padding-bottom: inherit;
 }
 
-h1, 
+h1,
 nav {
-    display: inline-block;
+  display: inline-block;
 }
 
 nav {
-    float: right;
-    padding: 60px 150px 0px;
+  float: right;
+  padding: 60px 150px 0px;
 }
 
-li, 
+li,
 a {
-    color: #707070;
-    text-decoration: none;
-    transition: .5s;
+  color: #707070;
+  text-decoration: none;
+  transition: 0.5s;
 }
 
 /*---- Hover Effect ----*/
 
 a:hover {
-    color: orange;
-    text-decoration:underline;
-    transition: .5s;
+  color: orange;
+  text-decoration: underline;
+  transition: 0.5s;
 }
 
 .workpage {
-    color: orange;
-    text-decoration: underline;
+  color: orange;
+  text-decoration: underline;
 }
 
 /*---- Hover Effect ----*/
 
-ul, 
+ul,
 li {
-    display: inline-block;
-    font-family: helvetica;
-    color: #707070;
-    font-weight: normal;
-    font-size: 16px;
-    margin: 10px;
+  display: inline-block;
+  font-family: helvetica;
+  color: #707070;
+  font-weight: normal;
+  font-size: 16px;
+  margin: 10px;
 }
 
 .boldname {
-    font-family: helvetica;
-    color: #707070;
-    position: relative;
-    top: 16px;
+  font-family: helvetica;
+  color: #707070;
+  position: relative;
+  top: 16px;
 }
 
 .design {
-    font-weight: normal;
+  font-weight: normal;
 }
-
 
 .mainanchor,
 .boldname {
-    display: inline-block;
+  display: inline-block;
 }
 
 .mainanchor {
-    vertical-align: middle;
-    padding: 45px 5px 0px 45px;
+  vertical-align: middle;
+  padding: 45px 5px 0px 45px;
 }
 
-.twitter, 
+.twitter,
 .share {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*---Header Stuff ---*/
@@ -97,48 +96,123 @@ li {
 /*----- Index & Work Pages landing code----*/
 
 .index-work-image-container {
-    position: relative;
-    top: 100px;
+  position: relative;
+  top: 100px;
 }
-
 
 /*---Body Code Work Description Pages---*/
 
 .workdescription {
-    float: right;
-    padding-top: 194px;
-    padding-right: 45px;
-    font-family: helvetica;
-    color: #707070;
-    max-width: 500px;
-    margin: 0 auto;
+  float: right;
+  padding-top: 194px;
+  padding-right: 45px;
+  font-family: helvetica;
+  color: #707070;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 .subh3 {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 .locationforproject {
-    font-weight: 400;
+  font-weight: 400;
 }
 
 .storyforwork {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
 .image-container {
-    padding-top: 194px;
-    max-width: 1400px;
+  padding-top: 194px;
+  max-width: 1400px;
 }
 
 .image-container img {
-    display: block;
+  display: block;
 }
 
 /*----Positioning----*/
 .blogheader {
-    position: relative;
-    top: 200px;
+  position: relative;
+  top: 200px;
 }
 
-/*----Animation----*/
+/*----Musicpage----*/
+
+.music-imagesize {
+  display: grid;
+  padding: 20px;
+  position: relative;
+  top: 153px;
+  left: 30px;
+}
+
+.introspectionalbum,
+.spacejunglealbum {
+  border: solid #707070 1px;
+  margin: 20px;
+}
+
+.musictitles {
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 97px;
+  left: 315px;
+  color: #707070;
+  top: 190px;
+}
+
+.artist-music-bold,
+.album-music-bold,
+.year-music-bold {
+  font-weight: bold;
+}
+
+.introspection {
+  position: relative;
+  top: 2px;
+}
+.spacejungle {
+  position: relative;
+  top: 191px;
+}
+
+.mediaplayer {
+  position: relative;
+  left: 550px;
+  top: -335px;
+}
+
+.musicdescription {
+  max-width: 40%;
+  position: relative;
+  left: 550px;
+  top: -310px;
+  color: #707070;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boldninety {
+  font-weight: bold;
+}
+
+.secondmusicp {
+  position: relative;
+  top: 10px;
+}
+
+.musiclinkphotos a {
+  display: block;
+  margin: 20px;
+  text-align: right;
+  position: relative;
+  bottom: 950px;
+  right: 200px;
+}
+
+.youtube {
+  position: relative;
+  left: 10px;
+}
