@@ -27,14 +27,58 @@
             </header> 
         </section>
         <main>
-                <div class="bio-image-container">
-                    <div class="bio-imagesize">
-                        <img src="images/virginia-engagement-photographer-virginia-beach-lia-everette-photography-52_websize.jpg" alt="Family Photo" width="1000">
-
-                    </div>
-                    </div>
+            <div class="bio-image-container">
+                <div class="bio-imagesize">
+                    <img src="images/virginia-engagement-photographer-virginia-beach-lia-everette-photography-52_websize.jpg" alt="Family Photo" width="850">
                 </div>
-         </main>
+            </div>
 
+            <div class="biodecriptbodycopy">
+                <p>I look for things that challenge me in my creative process. I like to focus on content that I enjoy for my self. There is heavy use of gesture in my work. There is plenty time for searching and calling for patience. Professional work has a pace and Fine Art has a pace. Both are always on time.</p>
+                <br>
+                <p>If you are not having FUN creating work you should stop. I believe art should still be art. People lose sight of that sometimes and try to make it something it’s not. It means something different to everybody. I am currently having a goodtime, so I’ll continue to create. Mucha, Moser and Roller forever.</p>
+                <br>
+                <p>-Avillanoza</p>
+            </div>
+    </main>
+    <body>
+        <div class="contactcontainer">
+            <h2>Contact Me.</h2>
+            <p class="biofirstline">Please fill out the form below and someone will be in contact with you shortly!</p>
+            <form id="contactform" name="test_form" method="POST" action="form.php" onsubmit="return validateForm(this)">
+                <div class="first-name input-section">
+                    <label for="firstname" class="label_input_wrap">First Name:</label>
+                    <input type="text" name="req_firstname" id="firstname" placeholder="ex: John"/> <!-- make sure the "for" in label and the "id" in input match -->
+                </div>
+    
+                <div class="last-name input-section">
+                    <label for="lastname" class="label_input_wrap">Last Name:</label>
+                    <input type="text" name="req_lastname" id="lastname" placeholder="ex: Smith"/>
+                </div>
+    
+                <div class="email input-section">
+                    <label for="email" class="label_input_wrap">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="jsmith@example.com"/>
+                </div>
+    
+                <div class="telephone input-section">
+                    <label for="telephone" class="label_input_wrap">Telephone:</label>
+                    <input type="tel" name="req_telephone" id="telephone" placeholder="555-555-5555"/>
+                </div>
+    
+                <div class="comments input-section">
+                    <label for="comments" class="label_input_wrap">Comments:</label>
+                    <textarea name="comments" id="comments" placeholder="What's concerning or inspiring you today? Let's Dive Into It!" cols="60" rows="5"></textarea>
+                </div>
+
+                <div class="submit input-section">
+                    <input type="submit" value="Send me a message!"/>
+                </div>
+
+                <div class="reset input-section">
+                    <input type="reset" value="Clear All">
+                </div>
+            </form>
+        </div>
     </body>
 </html>

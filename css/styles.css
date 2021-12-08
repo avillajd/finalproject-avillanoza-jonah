@@ -198,11 +198,6 @@ li {
   font-weight: bold;
 }
 
-.secondmusicp {
-  position: relative;
-  top: 10px;
-}
-
 .musiclinkphotos a {
   display: block;
   margin: 20px;
@@ -215,4 +210,112 @@ li {
 .youtube {
   position: relative;
   left: 10px;
+}
+
+/*---- Bio Page---*/
+
+/*--- Bio Image ---*/
+
+.bio-image-container {
+  text-align: center;
+  padding: 160px 0px 10px 0px;
+}
+
+/*--- Bio Copy ---*/
+.biodecriptbodycopy {
+  margin: 0 auto;
+  max-width: 850px;
+  font-family: helvetica;
+  color: #707070;
+}
+
+/* ---- Body of Contact Form ---*/
+h2 {
+  color: #707070;
+}
+
+.biofirstline {
+  color: orange;
+}
+
+.biofirstline::first-letter {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+h2,
+.biofirstline {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  padding: 5px;
+}
+
+.biobodycopy {
+  max-width: 500px;
+}
+
+#contactform {
+  background: #707070;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 4px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.label_input_wrap {
+  display: block;
+  padding: 0 0 10px 0;
+}
+
+.reset input,
+.submit input {
+  background: orange;
+  color: white;
+  padding: 5px 20px;
+}
+
+.reset,
+.submit {
+  display: block;
+  padding: 4px;
+}
+
+.input-section {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 3px;
+}
+
+textarea {
+  font-family: Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 3px;
+  max-width: 450px;
+}
+
+select {
+  width: 180px;
+  padding: 8px 0px;
+  border-radius: 4px;
+}
+
+label {
+  font-weight: normal;
+}
+
+label::first-letter {
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.container {
+  padding: 200px;
+  text-align: center;
+  font-family: helvetica;
 }
