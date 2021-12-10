@@ -220,6 +220,23 @@ li {
   left: 10px;
 }
 
+.gallery {
+  position: absolute;
+  top: 906px;
+}
+
+h2.galleryhead {
+  position: relative;
+  left: 229px;
+}
+
+section.gallery img {
+  width: 295px;
+  padding: 20px;
+  position: relative;
+  left: 233px;
+}
+
 /*---- Bio Page---*/
 
 /*--- Bio Image ---*/
