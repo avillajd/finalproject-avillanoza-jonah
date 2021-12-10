@@ -112,8 +112,16 @@ li {
   margin: 0 auto;
 }
 
+.workhtwo {
+  text-align: left;
+}
+
 .subh3 {
   padding-top: 25px;
+  font-weight: 500;
+}
+.subh33 {
+  font-weight: 500;
 }
 
 .locationforproject {
@@ -121,7 +129,7 @@ li {
 }
 
 .storyforwork {
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .image-container {
@@ -359,3 +367,5 @@ label::first-letter {
   border: solid 1px;
   margin: 10px auto;
 }
+
+/*--- Design and Work Pages ---*/
